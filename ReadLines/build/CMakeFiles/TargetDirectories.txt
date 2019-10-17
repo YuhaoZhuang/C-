@@ -1,0 +1,3 @@
+/mnt/c/ReadLines/build/CMakeFiles/edit_cache.dir
+/mnt/c/ReadLines/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/ReadLines/build/CMakeFiles/ReadLines.dir

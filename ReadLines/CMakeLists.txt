@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(ReadLines LANGUAGES C)
+set (SOURCES main.c read_lines.c read_lines.h)
+add_executable(ReadLines ${SOURCES})
+target_compile_options(ReadLines PRIVATE -Wall -Werror)
+set_target_properties(ReadLines PROPERTIES OUTPUT_NAME "ReadLines" SUFFIX ".out")

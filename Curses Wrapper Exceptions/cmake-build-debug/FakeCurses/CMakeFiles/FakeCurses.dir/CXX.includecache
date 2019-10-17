@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../CursesWrapper/./CellReference.h
+Window.h
+../CursesWrapper/./Window.h
+
+../CursesWrapper/./RowReference.h
+Window.h
+../CursesWrapper/./Window.h
+CellReference.h
+../CursesWrapper/./CellReference.h
+
+../CursesWrapper/./Window.h
+vector
+-
+string
+-
+ostream
+-
+RowReference.h
+../CursesWrapper/./RowReference.h
+
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCurses.cpp
+iostream
+-
+FakeCurses.h
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCurses.h
+
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCurses.h
+FakeCursesWindow.h
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesWindow.h
+
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesCell.cpp
+FakeCursesCell.h
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesCell.h
+
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesCell.h
+vector
+-
+
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesWindow.cpp
+algorithm
+-
+iostream
+-
+FakeCursesWindow.h
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesWindow.h
+
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesWindow.h
+vector
+-
+string
+-
+memory
+-
+iostream
+-
+FakeCursesCell.h
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/FakeCursesCell.h
+Window.h
+/cygdrive/c/Curses Wrapper Exceptions/FakeCurses/Window.h
+

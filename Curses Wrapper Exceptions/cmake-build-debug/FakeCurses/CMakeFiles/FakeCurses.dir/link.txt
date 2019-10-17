@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libFakeCurses.a  CMakeFiles/FakeCurses.dir/FakeCurses.cpp.o CMakeFiles/FakeCurses.dir/FakeCursesWindow.cpp.o CMakeFiles/FakeCurses.dir/FakeCursesCell.cpp.o
+/usr/bin/ranlib.exe libFakeCurses.a

@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libCursesWrapper.a  CMakeFiles/CursesWrapper.dir/RowReference.cpp.o CMakeFiles/CursesWrapper.dir/WindowImplementation.cpp.o CMakeFiles/CursesWrapper.dir/CellReference.cpp.o
+/usr/bin/ranlib.exe libCursesWrapper.a

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/ReadLines/main.c
+stdio.h
+-
+stdlib.h
+-
+read_lines.h
+/mnt/c/ReadLines/read_lines.h
+
+/mnt/c/ReadLines/read_lines.c
+stdio.h
+-
+stdlib.h
+-
+read_lines.h
+/mnt/c/ReadLines/read_lines.h
+
+/mnt/c/ReadLines/read_lines.h
+stdio.h
+-
+stdlib.h
+-
+

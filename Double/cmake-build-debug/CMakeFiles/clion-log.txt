@@ -1,0 +1,26 @@
+C:\Users\eagle\.CLion2018.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Double
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at /cygdrive/c/Users/eagle/.CLion2018.3/system/cygwin_cmake/share/cmake-3.13.2/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR
+  GTEST_MAIN_LIBRARY)
+Call Stack (most recent call first):
+  /cygdrive/c/Users/eagle/.CLion2018.3/system/cygwin_cmake/share/cmake-3.13.2/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  /cygdrive/c/Users/eagle/.CLion2018.3/system/cygwin_cmake/share/cmake-3.13.2/Modules/FindGTest.cmake:196 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:6 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/c/Double/cmake-build-debug/CMakeFiles/CMakeOutput.log".
